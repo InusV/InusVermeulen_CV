@@ -10,6 +10,7 @@
 
 body{
     background: linear-gradient(to right, #1a1aff, #80ffbf);
+    background-size: cover;
 }
 
 .resume{
@@ -226,4 +227,46 @@ body{
     width: 2px;
     height: 90%;
     background: #3525af;
+}
+
+.input_fields{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input_fields .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #3525af;
+    padding: 10px;
+}
+
+.msg textarea{
+    height: 212px;
+}
+
+::-webkit-input-placeholder{
+    color: #3525af;
+}
+
+::-moz-input-placeholder{
+    color: #3525af;
+}
+
+::-ms-input-placeholder{
+    color: #3525af;
+}
+
+.btn{
+    background: #292b2f;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #3525af;
+    cursor: pointer;
+    text-transform: uppercase;
 }
